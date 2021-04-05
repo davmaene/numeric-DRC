@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Basic DRC numeric data",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davmaene/num-DRC.git"
+  },
+  "keywords": [
+    "DRC",
+    "RDCongo",
+    "Congo",
+    "Kinshasa",
+    "DRC-provinces",
+    "DRC-json",
+    "RDC.Json",
+    "RDC datajson"
+  ],
+  "author": "davidmened@gmail.com",
+  "license": "MIT"
+}
