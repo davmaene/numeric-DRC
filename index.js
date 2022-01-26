@@ -3,8 +3,8 @@ const dt = require('./libs/dt/poligon.data').statesData; // data magna
 const features = dt.features; // tab features
 
 let _onRetSuggestion = (key) => {
-    key = key.toString();
-    key = key.trim();
+    key = key.toString().trim();
+    // key = key.trim();
     const fnd = [];
     const idx = key.substring(0, 2)
     features.forEach(elem => {
